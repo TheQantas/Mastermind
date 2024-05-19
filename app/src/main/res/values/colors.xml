@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="main">#ff111111</color>
+    <color name="accent">#ff222222</color>
+    <color name="offset_accent">#ff2a2a2a</color>
+    <color name="double_accent">#ff333333</color>
+    <color name="triple_accent">#ff444444</color>
+    <color name="counter">#ffffffff</color>
+    <color name="counter_accent">#ffeeeeee</color>
+
+    <color name="ccar_light">#ff6549d1</color>
+    <color name="ccar_orange">#fff74f08</color>
+    <color name="ccar_dark">#ff0d0735</color>
+    <color name="ccar_dark_accent">#ff2d2755</color>
+
+    <color name="red">#ffe61919</color>
+    <color name="red_accent">#B31414</color>
+    <color name="orange">#ffe68019</color>
+    <color name="orange_accent">#B36314</color>
+    <color name="yellow">#F2F21B</color>
+    <color name="yellow_accent">#BFBF15</color>
+    <color name="green">#53CC16</color>
+    <color name="green_accent">#3D990F</color>
+    <color name="blue">#ff195ee6</color>
+    <color name="blue_accent">#1449B3</color>
+    <color name="purple">#4E30E6</color>
+    <color name="purple_accent">#3D25B3</color>
+
+    <color name="magenta">#D918D9</color>
+    <color name="magenta_accent">#A612A6</color>
+    <color name="cyan">#45E6E6</color>
+    <color name="cyan_accent">#36B3B3</color>
+    <color name="lavender">#A077F2</color>
+    <color name="lavender_accent">#7E5EBF</color>
+    <color name="brown">#8C723C</color>
+    <color name="brown_accent">#594925</color>
+</resources>

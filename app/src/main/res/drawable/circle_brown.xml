@@ -1,0 +1,12 @@
+<!-- res/drawable/radial_gradient.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval">
+    <!-- Create a radial gradient background -->
+    <gradient
+        android:type="radial"
+        android:centerX="50%"
+        android:centerY="50%"
+        android:startColor="@color/brown"
+        android:endColor="@color/brown_accent"
+        android:gradientRadius="50%"
+        />
+</shape>

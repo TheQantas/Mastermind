@@ -1,0 +1,38 @@
+<!-- grid_of_circles.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+    <shape android:shape="rectangle">
+        <size
+            android:width="20dp"
+            android:height="20dp" />
+
+        <solid
+            android:color="@color/ccar_dark" />
+
+    </shape>
+    </item>
+    <!-- Example: Circle at position (0, 0) -->
+    <item android:bottom="20dp" android:right="20dp">
+        <shape
+            android:shape="oval">
+            <size
+                android:width="10dp"
+                android:height="10dp" />
+            <solid
+                android:color="@color/ccar_dark_accent" /> <!-- Circle color (replace with your desired color) -->
+        </shape>
+    </item>
+
+    <item android:top="20dp" android:left="20dp">
+        <shape
+            android:shape="oval">
+            <size
+                android:width="20dp"
+                android:height="20dp" />
+            <solid
+                android:color="@color/ccar_dark_accent" /> <!-- Circle color (replace with your desired color) -->
+        </shape>
+    </item>
+
+</layer-list>

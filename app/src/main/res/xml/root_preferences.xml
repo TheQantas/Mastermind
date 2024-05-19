@@ -1,0 +1,35 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/setup_header">
+
+        <SeekBarPreference xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:title="Number of Colors"
+            android:max="10"
+            android:min="1"
+            android:defaultValue="6"
+            app:key="number_of_colors"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp" />
+
+        <SeekBarPreference xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:title="Length of Code"
+            android:max="6"
+            android:min="1"
+            android:defaultValue="4"
+            app:key="length_of_code"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp" />
+
+        <SwitchPreferenceCompat xmlns:android="http://schemas.android.com/apk/res/android"
+            app:key="allow_duplicates"
+            android:defaultValue="true"
+            app:title="Allow Duplicates" />
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

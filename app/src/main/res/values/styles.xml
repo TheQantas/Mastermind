@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="How_to_Play_Header">
+        <item name="android:textColor">@color/ccar_orange</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="How_to_Play_Sub_Header">
+        <item name="android:textColor">@color/ccar_light</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+    <style name="How_to_Play_Paragraph">
+        <item name="android:textColor">@color/counter</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+</resources>

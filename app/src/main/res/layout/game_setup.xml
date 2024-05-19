@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ccar_dark"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/ccar_orange"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="48sp"
+        android:layout_marginTop="200dp"
+        android:text="MASTERMIND"></EditText>
+
+    <Button
+        android:id="@+id/btn_launch_game"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/ccar_light"
+        android:textSize="24sp"
+        android:textColor="@color/counter"
+        android:text="Launch" />
+
+    <Button
+        android:id="@+id/btn_go_to_settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/ccar_light"
+        android:textSize="24sp"
+        android:textColor="@color/counter"
+        android:layout_marginTop="10dp"
+        android:text="Game Setup" />
+
+    <Button
+        android:id="@+id/btn_go_to_instructions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/ccar_light"
+        android:textSize="24sp"
+        android:textColor="@color/counter"
+        android:layout_marginTop="10dp"
+        android:text="How to Play" />
+
+
+</LinearLayout>

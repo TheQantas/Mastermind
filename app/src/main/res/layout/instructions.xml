@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@color/ccar_dark">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:theme="@style/How_to_Play_Header"
+        android:text="Objective"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:theme="@style/How_to_Play_Paragraph"
+        android:text="@string/objective"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:theme="@style/How_to_Play_Header"
+        android:text="Gameplay"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:theme="@style/How_to_Play_Sub_Header"
+        android:text="Your Turn"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:theme="@style/How_to_Play_Paragraph"
+        android:text="@string/your_turn"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:theme="@style/How_to_Play_Sub_Header"
+        android:text="Feedback"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:theme="@style/How_to_Play_Paragraph"
+        android:text="@string/feedback"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:theme="@style/How_to_Play_Paragraph"
+        android:textStyle="bold"
+        android:text="@string/feedback_note"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:theme="@style/How_to_Play_Sub_Header"
+        android:text="Winning"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:theme="@style/How_to_Play_Paragraph"
+        android:text="@string/winning"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:theme="@style/How_to_Play_Header"
+        android:text="Game Options"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:theme="@style/How_to_Play_Paragraph"
+        android:text="@string/options_colors"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:theme="@style/How_to_Play_Paragraph"
+        android:text="@string/options_length"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:theme="@style/How_to_Play_Paragraph"
+        android:text="@string/options_duplicates"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:theme="@style/How_to_Play_Header"
+        android:text="Tips"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:theme="@style/How_to_Play_Paragraph"
+        android:text="@string/tip_1"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:theme="@style/How_to_Play_Paragraph"
+        android:text="@string/tip_2"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:theme="@style/How_to_Play_Paragraph"
+        android:text="@string/tip_3"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:theme="@style/How_to_Play_Sub_Header"
+        android:text="@string/luck"></TextView>
+
+</LinearLayout>
+</ScrollView>
